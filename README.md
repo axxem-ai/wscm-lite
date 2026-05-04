@@ -14,7 +14,9 @@ The full WSCM includes consensus momentum, reversal amplifiers, continuous expon
 
 **WSCM-Lite** is a reduced-friction deployment tier that replaces the full model's exponential functions with a 4-row lookup table, producing coordinate trajectories within 0.01 field units of the full WSCM at regular session cadence. It trades second-order dynamics (momentum, reversal detection) for immediate usability in Excel or Google Sheets. Everything in this repository describes the WSCM-Lite mathematics only.
 
-A dedicated WSCM-Lite companion paper is forthcoming.
+WSCM-Lite is documented in its own companion paper:
+
+> Codourey, M. & Gonzalez, E. A. (2026). WSCM-Lite: A practitioner-ready implementation of the Weak Signal Cultivation Model. *arXiv preprint* [arXiv:2604.05381](https://arxiv.org/abs/2604.05381).
 
 ## What's in This Repository
 
@@ -23,6 +25,8 @@ A dedicated WSCM-Lite companion paper is forthcoming.
 | `WSCM_Lite_Step_by_Step_Mathematics.pdf` | Complete WSCM-Lite mathematical specification in plain language. Seven steps, five constants, one lookup table. |
 | `WSCM_Lite_Gas_Fumes_26_Sessions.pdf` | Detailed 26-session worked example tracing a gas fumes signal from initial detection through emergency response and near-retirement. Every session includes field observations, assessor scores, step-by-step calculations, and team decisions. |
 | `WSCM_Lite_Simulator_v0.1.xlsx` | Excel simulator pre-loaded with the Gas Fumes example. Enter NRS scores and the model computes position, distance, SMS escalation, and Session Severity Index automatically. |
+
+The companion paper ([arXiv:2604.05381](https://arxiv.org/abs/2604.05381)) provides the full derivation, validation against the parent WSCM, and sensitivity analysis.
 
 ## Quick Start
 
