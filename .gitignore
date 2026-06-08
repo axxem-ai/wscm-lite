@@ -1,0 +1,28 @@
+
+# >>> AXXEM doc/media guard (keep business docs/media OUT of GitHub; they live local + Drive)
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+*.csv
+*.tex
+*.heic
+*.mp4
+*.mov
+*.m4a
+*_files/
+ARXIV/
+NotebookLM*/
+Research/
+*-context-dump_*.md
+*-verified-from-source_*.md
+.DS_Store
+# exceptions that DO belong in the repo:
+!README.md
+!README.pdf
+!LICENSE
+!LICENSE.pdf
+# <<< AXXEM doc/media guard
